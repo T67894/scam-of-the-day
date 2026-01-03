@@ -1,5 +1,5 @@
 import express from "express";
-import cheerio from "cheerio";
+import * as cheerio from "cheerio";
 import NodeCache from "node-cache";
 
 const app = express();
